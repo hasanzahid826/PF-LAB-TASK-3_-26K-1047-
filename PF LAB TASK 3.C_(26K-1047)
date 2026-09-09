@@ -1,0 +1,92 @@
+//QUESTION NO (1)
+
+#include<stdio.h>
+
+int main()
+{
+    printf("Name: Muhammad Hasan\n");
+    printf("Age: 18\n");
+    printf("Department: Computer science\n");
+    printf("student ID: 26k-1047\n");
+    printf("section: D\n");
+    printf("university name: FAST national university\n");
+
+    return 0;
+}
+//QUESTION NO (2)
+
+#include<stdio.h>
+
+int main()
+{
+    char name[50],department[50],studentID[20],universityname[50];
+    int age;
+    printf("enter name:Muhammad Hasan");
+    scanf("%s", name);
+    printf("enter age: 19");
+    scanf("%d",&age);
+    printf("enter department: computer science");
+    scanf("%s", department);
+    printf("enter student ID: 26k-1047");
+    scanf("%s", studentID);
+    printf("enter university name:Fast national university");
+    scanf("%s", universityname);
+    printf("\nstudent details:\n");
+    printf("name: %s\n", name);
+    printf("age: %d\n", age);
+    printf("department: %s\n",department);
+    printf("student ID: %s\n",studentID);
+    printf("university name: %s\n", universityname);
+}
+
+//QUESTION NO (3)
+#include <stdio.h>
+
+int main()
+{
+    float kilometers, meters, centimeters;
+
+    printf("enter distance in kilometers: ");
+    scanf("%f", &kilometers);
+
+    meters= kilometers * 1000;
+    centimeters= kilometers * 100000;
+
+    printf("Distance in meters:%.2f\n", meters);
+    printf("distance in centimeters: %.2f\n",centimeters);
+
+    return 0;
+}
+
+//QUESTION NO(5)
+#include <stdio.h>
+
+int main()
+{
+    inta,b;
+    printf("enter first number: ");
+    scanf("%d", &a);
+    printf("enter second number: ");
+    scanf("%d", &b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("after swapping: \n");
+    printf("first number: %d\n",a);
+    printf("second number: %d\n",b);
+}
+//QUESTION NO (4)
+
+#include<stdio.h>
+
+int main()
+{
+    float base,height,area;
+    printf("enter base: ");
+    scanf("%f", &base);
+    printf("enter height: ");
+    scanf("%f", &height);
+    area=0.5*base*height;
+    printf("area of triangle= %.2f, area",area);
+        
+}
